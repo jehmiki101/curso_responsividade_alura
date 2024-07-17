@@ -1,0 +1,131 @@
+.carrossel {
+    background-color: var(--cor-de-fundo);
+}
+
+.carrossel__titulo {
+    text-align: center;
+    padding: 1.5rem 0 1rem 0;
+    background-color: var(--branco);
+
+    font-size: 1.13rem;
+    font-weight: 700;
+    color: var(--laranja);
+}
+
+.swiper-slide img {
+    width: 100%;
+}
+
+.swiper-button-prev, .swiper-button-next {
+    display: none;
+}
+
+.swiper-pagination {
+    position: initial;
+    margin: 0.5em 0;
+    --swiper-pagination-color: black;
+    
+}
+
+.card {
+    background-color: var(--branco);
+    margin: 1rem 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgb(0, 0, 0, 0.25);
+    padding: 1.3rem 1rem;
+
+}
+.card__descriçao {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    margin-top:0.5rem;
+    line-height: 1.5rem;
+    gap:0.5rem;
+
+}
+
+.descriçao__titulo {
+    color: var(--laranja);
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.descriçao__titulo-livro {
+    color: var(--azul-escuro);
+    font-size: 1.15rem;
+    font-weight: 700;
+    margin: 0.5rem 0;
+}
+
+.descriçao__texto {
+    color: black;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.card__botoes {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.botoes {
+    display: flex;
+    gap:0.5rem;
+    margin-top: 1.5rem;
+}
+
+.botoes__item {
+    margin: 0.5rem 0.5rem 0 0.5rem;
+
+}
+
+
+.botoes__ancora {
+    background-color: var(--laranja);
+    text-align: center;
+    color: var(--branco);
+    padding: 1rem 2.2rem;
+    font-size: 1rem;
+    font-weight: 700;
+    text-decoration: none;
+    margin-top: 1.5rem;
+}
+
+.botoes__ancora:active {
+    background-color: var(--azul-escuro);
+}
+
+.topicos {
+    background: var(--azul-degrade);
+    text-align: center;
+    padding-bottom: 1.5rem;
+}
+
+.topicos__titulo {
+    color: var(--branco);
+    text-align: center;
+    padding: 1.5rem;
+    font-size: 1rem;
+    font-weight: 300; 
+}
+
+.topicos__lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.topicos__item {
+    margin: 1.8rem 0.5rem;
+}
+
+.topicos__link {
+    background-color: var(--laranja);
+    color: var(--branco);
+    text-decoration: none;
+    padding: 1rem 1.5rem;
+    font-size:0.87rem;
+    font-weight:700;
+}
