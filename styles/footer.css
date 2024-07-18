@@ -1,0 +1,13 @@
+
+hr {
+    margin:0;
+    color: var(--cinza-escuro);
+    border-bottom-color: var(--branco-rodape); 
+
+}
+
+.rodape__titulo {
+    background-color: var(--branco-rodape);
+    padding: 1.5rem;
+    color: black;
+}

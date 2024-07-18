@@ -96,36 +96,3 @@
 .botoes__ancora:active {
     background-color: var(--azul-escuro);
 }
-
-.topicos {
-    background: var(--azul-degrade);
-    text-align: center;
-    padding-bottom: 1.5rem;
-}
-
-.topicos__titulo {
-    color: var(--branco);
-    text-align: center;
-    padding: 1.5rem;
-    font-size: 1rem;
-    font-weight: 300; 
-}
-
-.topicos__lista {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.topicos__item {
-    margin: 1.8rem 0.5rem;
-}
-
-.topicos__link {
-    background-color: var(--laranja);
-    color: var(--branco);
-    text-decoration: none;
-    padding: 1rem 1.5rem;
-    font-size:0.87rem;
-    font-weight:700;
-}
