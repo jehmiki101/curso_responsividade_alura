@@ -96,3 +96,26 @@
 .botoes__ancora:active {
     background-color: var(--azul-escuro);
 }
+
+@media screen and (min-width: 1024px) {
+    .carrossel__titulo {
+        font-size: 1.6rem;
+        padding-top: 3rem;
+    }
+
+    .swiper-pagination {
+        margin: 2rem 0 3rem 0;
+    }
+
+    .swiper {
+        width: 60%;
+    }
+
+    .swiper-button-prev, .swiper-button-next {
+        display: block;
+    }
+
+    .card {
+        margin: 1rem 1rem;
+    }
+}

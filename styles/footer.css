@@ -11,3 +11,46 @@ hr {
     padding: 1.5rem;
     color: black;
 }
+
+.lista-rodapé {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .rodape {
+        display: flex;
+        background: var(--branco-rodape);
+        justify-content: space-evenly;
+    }
+
+    .rodape__titulo {
+        font-size: 1.5rem;
+        padding: 3.5rem 1.5rem;
+;
+    }
+
+    .lista-rodapé {
+        padding: 3.5rem 0 4.3rem 0;
+        display: block;
+    }
+
+    .lista-rodapé__titulo {
+        padding: 0 0 2rem 2rem;
+        color: var(--cinza-escuro);
+        text-transform: uppercase;
+    }
+
+    .lista-rodapé__item {
+        padding: 0.5rem 1.75rem;
+        display: flex;
+        text-align: center;
+    }
+
+    .lista-rodapé__link {
+        text-decoration: none;
+        padding: 0.5rem;
+        color: var(--cinza-rodapé);
+
+
+    }
+}
