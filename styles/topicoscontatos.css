@@ -111,3 +111,26 @@
         width: 30%;
     }
 }
+
+@media screen and (min-width: 1728px) {
+    .topicos {
+        padding: 1.5rem 25vw 3rem 25vw;
+    }
+
+    .topicos__titulo {
+        font-size: 2rem;
+        font-weight: 300; 
+    }
+
+    .topicos__link {
+        padding: 1.5rem 2rem;
+    }
+
+    .topicos__item {
+        margin: 2.5rem 0.5rem;
+    }
+
+    .contato {
+        padding: 4rem 15vw 4rem 15vw;
+    }
+}
