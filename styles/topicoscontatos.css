@@ -72,7 +72,7 @@
 }
 
 .contato__email::placeholder {
-    background: url(../assets/images/Email.svg) no-repeat;    
+    background: url(./images/Email.svg) no-repeat;    
     background-position: 0;
     font-family: var(--fonte);
     font-size: 1rem;

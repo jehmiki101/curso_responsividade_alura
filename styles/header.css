@@ -1,7 +1,7 @@
 .cabecalho__menu-hamburguer {
     width: 1.5rem;
     height: 1.5rem;
-    background-image: url("../assets/images/Menu.svg");
+    background-image: url("./images/Menu.svg");
     background-repeat: no-repeat;
     background-position: center;
     display: inline-block;
@@ -9,7 +9,7 @@
 }
 
 .container__botao:checked ~ .container__rotulo>.cabecalho__menu-hamburguer {
-    background-image: url(../assets/images/Menu\ Aberto.svg);
+    background-image: url(./images/Menu\ Aberto.svg);
 }
 
 .container__botao:checked ~ .container__rotulo {
